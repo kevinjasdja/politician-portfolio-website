@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Generator</title>
+</head>
+<body>
+    <h1>Generate PWA Icons from SVG</h1>
+    <p>This is a simple HTML tool to convert your SVG to PNG icons</p>
+    
+    <canvas id="canvas" style="display: none;"></canvas>
+    
+    <script>
+        // Load the SVG and convert to PNG at different sizes
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        
+        async function generateIcons() {
+            const img = new Image();
+            img.src = '/abhishek_icon.svg';
+            
+            img.onload = () => {
+                sizes.forEach(size => {
+                    const canvas = document.getElementById('canvas');
+                    canvas.width = size;
+                    canvas.height = size;
+                    const ctx = canvas.getContext('2d');
+                    
+                    // Clear canvas
+                    ctx.clearRect(0, 0, size, size);
+                    
+                    // Draw SVG
+                    ctx.drawImage(img, 0, 0, size, size);
+                    
+                    // Convert to PNG
+                    canvas.toBlob(blob => {
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `icon-${size}x${size}.png`;
+                        a.click();
+                    });
+                });
+            };
+        }
+        
+        // Uncomment to auto-generate
+        // generateIcons();
+    </script>
+    
+    <button onclick="generateIcons()">Generate Icons</button>
+</body>
+</html>
